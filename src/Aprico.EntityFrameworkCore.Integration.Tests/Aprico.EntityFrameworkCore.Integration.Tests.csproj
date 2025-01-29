@@ -12,6 +12,7 @@
    </ItemGroup>
 
    <ItemGroup>
+      <PackageReference Include="Aprico.Unit"/>
       <PackageReference Include="AutoFixture"/>
       <PackageReference Include="AutoFixture.Xunit2"/>
       <PackageReference Include="coverlet.collector">
@@ -19,7 +20,12 @@
          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="FluentAssertions"/>
+      <PackageReference Include="MicroElements.AutoFixture.NodaTime"/>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
       <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+      <PackageReference Include="NodaTime"/>
+      <PackageReference Include="Testcontainers.MsSql"/>
+      <PackageReference Include="Testcontainers.Xunit"/>
       <PackageReference Include="xunit"/>
       <PackageReference Include="xunit.analyzers">
          <PrivateAssets>all</PrivateAssets>
